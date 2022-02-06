@@ -1,5 +1,5 @@
-GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
- gcc -g p4original.c
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
+gcc -g p4original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -19,7 +19,7 @@ Reading symbols from a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x8ab: file p4original.c, line 38.
 (gdb) r
-Starting program: /home/runner/pps-IA1-practice-4/a.out 
+Starting program: /home/runner/pps-IA1-practice-12/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p4original.c:38
@@ -42,5 +42,5 @@ Enter a number: 11
 45      return 0;
 (gdb) c
 Continuing.
-1+7+11 is 19[Inferior 1 (process 83) exited normally]
+1+7+11 is 19[Inferior 1 (process 618) exited normally]
 (gdb) 
