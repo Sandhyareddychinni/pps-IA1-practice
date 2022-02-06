@@ -1,5 +1,5 @@
-GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
-gcc -g p6original.c
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
+gcc -g p6final.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -17,24 +17,20 @@ For help, type "help".
 Type "apropos word" to search for commands related to "word"...
 Reading symbols from a.out...done.
 (gdb) b main
-Breakpoint 1 at 0x912: file p6original.c, line 59.
+Breakpoint 1 at 0x912: file p6final.c, line 59.
 (gdb) r
-Starting program: /home/runner/pps-IA1-practice-9/a.out 
+Starting program: /home/runner/pps-IA1-practice-12/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
-Breakpoint 1, main () at p6original.c:59
+Breakpoint 1, main () at p6final.c:59
 59  {
 (gdb) n
 62    input_two_strings(a,b);
 (gdb) n
 enter the word:hello world
 63    result = cmp(a,b);
-(gdb) n
-64    output(a,b,result);
-(gdb) n
-enter the word:world is greater than hello
-65    return 0;
 (gdb) c
 Continuing.
-[Inferior 1 (process 95) exited normally]
+enter the word:world is greater than hello
+[Inferior 1 (process 932) exited normally]
 (gdb) 
