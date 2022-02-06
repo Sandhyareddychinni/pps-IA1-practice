@@ -1,23 +1,5 @@
-GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
 gcc -g p3original.c
- gcc -g p3original.c
- gdb a.out
-GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
-Copyright (C) 2018 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
-and "show warranty" for details.
- 
- gcc -g p3original.c
- gdb a.out
-GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
-Copyright (C) 2018 Free Software Foundation, Inc.
-License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
-This is free software: you are free to change and redistribute it.
-There is NO WARRANTY, to the extent permitted by law.  Type "show copyin
- 
- gcc -g p3original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -37,14 +19,14 @@ Reading symbols from a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x81b: file p3original.c, line 25.
 (gdb) r
-Starting program: /home/runner/pps-IA1-practice-3/a.out 
+Starting program: /home/runner/pps-IA1-practice-12/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p3original.c:25
 25    n=input_n();
 (gdb) n
 enter the number:
-5
+7
 26    sum=sum_n(n);
 (gdb) n
 27    output(sum,n);
@@ -52,5 +34,5 @@ enter the number:
 28    return 0;
 (gdb) c
 Continuing.
-sum=15[Inferior 1 (process 151) exited normally]
-(gdb) 
+sum=28[Inferior 1 (process 461) exited normally]
+ gcc 
