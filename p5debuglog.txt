@@ -1,5 +1,5 @@
-GNU bash, version 4.4.20(1)-release (x86_64-pc-linux-gnu)
- gcc -g p5original.c
+clang version 7.0.0-3~ubuntu0.18.04.1 (tags/RELEASE_700/final)
+gcc -g p5original.c
  gdb a.out
 GNU gdb (Ubuntu 8.1.1-0ubuntu1) 8.1.1
 Copyright (C) 2018 Free Software Foundation, Inc.
@@ -19,20 +19,20 @@ Reading symbols from a.out...done.
 (gdb) b main
 Breakpoint 1 at 0x81d: file p5original.c, line 28.
 (gdb) r
-Starting program: /home/runner/pps-IA1-practice-6/a.out 
+Starting program: /home/runner/pps-IA1-practice-12/a.out 
 warning: Error disabling address space randomization: Operation not permitted
 
 Breakpoint 1, main () at p5original.c:28
 28    s=input();
 (gdb) n
-enter a number to find out the square root of:8
+enter a number to find out the square root of:9
 29    s1=squareroot(s);
 (gdb) n
 30    output(s,s1);
 (gdb) n
-square root of given input 8.00 is =2.83
+square root of given input 9.00 is =3.00
 31    return 0;
 (gdb) c
 Continuing.
-[Inferior 1 (process 32) exited normally]
+[Inferior 1 (process 768) exited normally]
 (gdb) 
